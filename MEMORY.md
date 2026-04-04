@@ -9,7 +9,7 @@
 
 ## 系統環境
 
-- **主機名：** devpro-VMware-Virtual-Platform（VM）
+- **主機名：** Ubuntu-Devpro（VM）
 - **作業系統：** Ubuntu 24.04.4 LTS
 - **Git 版本：** 2.43.0
 - **GitHub CLI：** v2.63.2（已登入 account: ubuntu-devpro）
