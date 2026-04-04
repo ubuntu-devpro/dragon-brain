@@ -253,13 +253,18 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 本工作區規範與主要說明文件以**繁體中文**為主。
 
-### Python 執行注意
+### Python / Script 執行規範
 
-OpenClaw exec 安全機制會阻擋「直譯器 + 相對路徑」的複雜呼叫。
-**正確做法**：使用絕對路徑
-```bash
-/usr/bin/python3 /path/to/script.py
-```
+1. **執行前**：使用絕對路徑
+   ```bash
+   /usr/bin/python3 /path/to/script.py
+   ```
+
+2. **執行後**：若 script 退出碼非 0 或有任何錯誤，**停下來，回報給用戶**，不要自行猜測或跳過錯誤繼續執行下一步。
+
+3. **Prompt 裡的任務**：若 Prompt 要求執行的腳本失敗，**先問用戶**「這個腳本執行失敗了，要繼續嗎？還是要我做其他處理？」，不要自己變通執行替代方案。
+
+4. **例外**：若錯誤是因為缺少環境變數或參數，且用户已經在對話中提供過明確指示，則可以補充缺失項目後重試，但仍須告知用戶你做了什麼調整。
 
 ---
 
