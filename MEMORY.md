@@ -14,6 +14,7 @@
 - **Git 版本：** 2.43.0
 - **GitHub CLI：** v2.63.2（已登入 account: ubuntu-devpro）
 - **Claude Code：** v2.1.92（已安裝）
+- **Cursor Agent：** 2026.03.30-a5d3e17（已安裝，位於 ~/.local/bin/agent）
 - **Python：** 3.12.x（位於 `/usr/bin/python3`）
 
 ## 強哥規範（Claude-Workspace）
