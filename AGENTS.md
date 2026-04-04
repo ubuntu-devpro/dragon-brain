@@ -209,7 +209,7 @@ The goal: Be helpful without being annoying. Check in a few times a day, do usef
 
 ## Claude-Workspace 協作規範（強哥專案）
 
-當工作在 `/home/devpro/Claude-Workspace` 時，**強制執行**以下規範：
+當工作在 `/home/devpro/Claude-Workspace`（強哥規範）時，**強制執行**以下規範：
 
 ### 目錄結構
 

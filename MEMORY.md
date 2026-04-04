@@ -16,12 +16,18 @@
 - **Claude Code：** v2.1.92（已安裝）
 - **Python：** 3.12.x（位於 `/usr/bin/python3`）
 
-## Claude-Workspace 專案
+## 強哥規範（Claude-Workspace）
 
 - **路徑：** `/home/devpro/Claude-Workspace`
 - **用途：** 強哥的多 AI 共享工作區規範
 - **GitHub：** https://github.com/jc9527/Claude-Workspace
 - **電腦命名：** `Johnny-MBP-M2`（Mac）、`devpro-VMware-Virtual-Platform`（VM）
+
+## 龍哥大腦（本地工作區）
+
+- **路徑：** `/home/devpro/.openclaw/workspace/`
+- **用途：** 龍哥自己的設定、記憶、規則
+- **Git Repo：** 本地 bare repo，剛才已 commit 過
 
 ### 重要技術細節
 
