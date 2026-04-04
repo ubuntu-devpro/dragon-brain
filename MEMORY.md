@@ -16,6 +16,7 @@
 - **Claude Code：** v2.1.92（已安裝）
 - **Cursor Agent：** 2026.03.30-a5d3e17（已安裝，位於 ~/.local/bin/agent）
 - **Python：** 3.12.x（位於 `/usr/bin/python3`）
+- **.NET SDK：** 8.0.125（已安裝）
 
 ## 強哥規範（Claude-Workspace）
 
