@@ -70,3 +70,20 @@ Add whatever helps you do your job. This is your cheat sheet.
 - **Hostname**: DevPro-Server
 - **用途**: IIS 網站代管
 - **已安裝**: 多個 IIS Sites (參見 IIS 設定)
+
+---
+
+## AI CLI 使用規則
+
+### Cursor vs Claude Code
+
+| 場景 | 使用工具 | 原因 |
+|------|---------|------|
+| 一般程式開發、編譯 | **Cursor CLI** | 省 token |
+| 遇到難題、卡關 | **Claude Code** | 能力更強 |
+
+**原則：**
+- 先用 Cursor 嘗試解決問題
+- 真的解不掉再呼叫 Claude Code
+- Claude Code 貴，要有價值地使用
+
