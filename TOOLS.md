@@ -24,6 +24,7 @@ Things like:
 ### SSH
 
 - home-server → 192.168.1.100, user: admin
+- DEVPRO-SERVER → 192.168.0.240, user: devpro, Windows Server 10
 
 ### TTS
 
@@ -34,6 +35,18 @@ Things like:
 ## Why Separate?
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+
+---
+
+## Sub-agent Timeout 設定
+
+| 任務類型 | 建議逾時 |
+|----------|----------|
+| 一般訊息回覆 | 60s |
+| 開發任務（複雜） | 360s（6分鐘） |
+| 簡單 Script | 120s |
+
+**派工時使用 `timeoutSeconds` 參數指定**
 
 ---
 
