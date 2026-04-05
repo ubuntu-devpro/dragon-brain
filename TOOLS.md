@@ -24,7 +24,7 @@ Things like:
 ### SSH
 
 - home-server → 192.168.1.100, user: admin
-- DEVPRO-SERVER → 192.168.0.240, user: devpro, Windows Server 10
+- DEVPRO-SERVER → 192.168.0.240, user: devpro, Windows Server 10, password: ab123456..!QAZ
 
 ### TTS
 
