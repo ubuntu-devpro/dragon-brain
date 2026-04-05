@@ -51,3 +51,22 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+---
+
+## 開發伺服器
+
+### Win11Pro (Windows 開發機)
+- **IP**: 100.116.136.66
+- **User**: devpro
+- **Password**: ab1234..
+- **Hostname**: Win11Pro
+- **用途**: Windows 環境開發、編譯、測試
+- **已安裝**: Claude Code v2.1.92, Python 3.13, Git
+
+### DevPro-Server (Windows Server)
+- **IP**: 192.168.0.240
+- **User**: devpro
+- **Password**: ab123456..!QAZ
+- **Hostname**: DevPro-Server
+- **用途**: IIS 網站代管
+- **已安裝**: 多個 IIS Sites (參見 IIS 設定)
